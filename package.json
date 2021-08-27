@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "ipgeoblock-fixes": "^0.1.5"
+    "ipgeoblock-fixed": "^0.1.5"
   },
   "engines": {
     "node": "12.x"
