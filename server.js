@@ -1,10 +1,10 @@
 const express = require('express')
 const app = express()
-const ipgeoblock = require("node-ipgeoblock");
+const ipgeoblock = require("ipgeoblock-fixed");
 
 app.use(ipgeoblock({
 	geolite2: "./GeoLite2-Country.mmdb",
-	blockedCountries: [ "FR"]
+	blockedCountries: [ "MU"]
 }));
 
 app.get('/', function (req, res) {
